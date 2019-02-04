@@ -1,14 +1,14 @@
-# HelloWorld
-This is my  first program in github
 
-I am newly joined in the Github tool.
+require_relative './mongo'
 
-I am learning GIT Hub tools
+module Time_Analyzer
 
-Learning GIT hub commands
+	def self.controller
 
-How to generate project in the GIT Tools.
+		Mongo_Connection.mongo_Connect("localhost", 27017, "GitHub-TimeTracking", "TimeTrackingCommits")
+
+	end
+
+end
 
 
-
-Thank you!
